@@ -12,7 +12,7 @@ const PacientesPage = () => {
     getPacientes()
       .then(setPacientes)
       .catch((error) => {
-        console.error("Error al cargar los doctores:", error);
+        console.error("Error al cargar los pacientes:", error);
       });
   }, []);
 

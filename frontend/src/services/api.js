@@ -18,6 +18,6 @@ export const getDisponibilidad = async () => {
 };
 
 export const reservarCita = async (data) => {
-  const response = await axios.post(`${API_BASE}/medicalnotes/`, data);
+  const response = await axios.post(`${API_BASE}/appointments/`, data);
   return response.data;
 };
