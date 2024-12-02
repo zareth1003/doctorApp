@@ -11,6 +11,10 @@ class Doctor (models.Model):
   biografy = models.TextField()
   is_on_vacation = models.BooleanField(default=False)
   
+  @property
+  def full_name(self):
+    return f"{self.first_name} {self.last_name}"
+  
 class Department (models.Model):  #Doctor tiene un departamento
   name = models.CharField(max_length=100)
   description = models.TextField()

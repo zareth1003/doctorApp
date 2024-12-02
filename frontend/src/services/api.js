@@ -17,7 +17,16 @@ export const getDisponibilidad = async () => {
   return response.data;
 };
 
+export const getCitas = async () => {
+  const response = await axios.get(`${API_BASE}/appointments/`);
+  return response.data;
+};
 export const reservarCita = async (data) => {
   const response = await axios.post(`${API_BASE}/appointments/`, data);
+  return response.data;
+};
+
+export const actualizarCita = async (id, data) => {
+  const response = await axios.patch(`${API_BASE}/appointments/${id}/`, data);
   return response.data;
 };

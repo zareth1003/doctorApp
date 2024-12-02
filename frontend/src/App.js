@@ -4,6 +4,7 @@ import HomePage from "./Pages/HomePage";
 import DoctoresPage from "./Pages/DoctoresPage";
 import PacientesPage from "./Pages/PacientesPage";
 import BookingsPage from "./Pages/BookingsPage";
+import BookingsPageDetail from "./Pages/BookingsPageDetail";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Route path="/doctores" element={<DoctoresPage />} />
         <Route path="/pacientes" element={<PacientesPage />} />
         <Route path="/bookings" element={<BookingsPage />} />
+        <Route path="/bookings/new" element={<BookingsPageDetail />} />
       </Routes>
     </Router>
   );
