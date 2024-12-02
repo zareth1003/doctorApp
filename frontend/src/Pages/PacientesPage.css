@@ -1,0 +1,41 @@
+/* PacientesPage.css */
+
+.pacientes {
+  padding: 2rem;
+  text-align: center;
+}
+
+.pacientes h1 {
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.pacientes ul {
+  list-style: decimal;
+  padding-left: 2rem;
+  margin: 2rem auto;
+  text-align: left;
+  max-width: 800px;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.pacientes li {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  border-bottom: 1px solid #ddd; /* Línea entre pacientes */
+  padding-bottom: 1rem; /* Espaciado para evitar que la línea quede pegada al texto */
+}
+
+.pacientes li h2 {
+  font-size: 1.2rem;
+  margin: 0;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.pacientes li p {
+  margin: 0.2rem 0;
+  color: #555;
+}

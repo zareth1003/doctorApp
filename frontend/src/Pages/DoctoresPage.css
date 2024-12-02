@@ -1,0 +1,57 @@
+/* DoctoresPage.css */
+
+.doctores {
+  padding: 2rem;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.doctores h1 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.doctores p {
+  font-size: 1.2rem;
+  color: #7f8c8d;
+}
+
+.doctores ul {
+  list-style: none;
+  padding: 0;
+  margin: 2rem auto;
+  max-width: 800px;
+}
+
+.doctores li {
+  margin-bottom: 1.5rem;
+  border: 1px solid #e1e1e1;
+  padding: 1.5rem;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.doctores li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.doctores li h2 {
+  font-size: 1.5rem;
+  margin: 0 0 0.5rem;
+  color: #34495e;
+}
+
+.doctores li p {
+  margin: 0.3rem 0;
+  font-size: 1rem;
+  color: #616161;
+}
+
+.doctores li p span {
+  font-weight: bold;
+  color: #2c3e50;
+}
